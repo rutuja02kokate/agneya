@@ -1,0 +1,34 @@
+<style type="text/css">
+
+#Y
+{
+color:#247cff;
+}
+
+a:hover
+{
+background-color:lightskyblue;
+}
+a:link
+{
+color: black;
+}
+strong
+{
+color:gray;
+}
+#y1
+{
+    background-image: url("../doctor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#y2
+{
+    font-size: 100px;
+    color: #247cff;
+}
+
+
+</style>
