@@ -1,0 +1,40 @@
+*{
+    margin: 10;
+    padding: 10px;;
+}
+body{
+    background: url(mg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container
+{
+    border: 8px solid black;
+    color: rgb(13, 14, 14);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.container h1
+{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    padding:  10px;
+    margin: 10px;
+}
+.box {
+    width: 100%;
+    
+}
+.box input{
+    width:75%;
+    border: none;
+    outline:none;
+    color:rgb(15, 15, 15)
+    
+}
+h2
+{
+    font-size:xx-large;
+}

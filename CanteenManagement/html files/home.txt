@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+            initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+ 
+    <title>canteen ORTAD</title>
+</head>
+<body>
+    <!-- navbar  -->
+    <nav>
+        <style>
+            ul{
+                font-size: 20px;
+
+            }
+        </style>
+        <ul class="nav-flex-row">
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/about/">About us</a>
+            </li>
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/c_login/"> Customer Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/e_login/">Employee Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/menu1/">Menu</a>
+            </li>
+        </ul>
+        
+    </nav>
+    <section class="section-intro">
+        <header>
+            <style>
+                font-size: 50px;
+            </style>
+            <h1> <center>Canteen ORTAD</center> </h1>
+            <h2><center> because friendship starts here</center> </h2>
+            <style>
+                h1{
+               
+                  font-size: 100px;
+                  background-color:rgb(213, 213, 72);
+                  font-weight: bold;
+                  font-family:"times new roman"
+                  
+                }
+            </style>
+            
+    
+            <style>
+                h2{
+                  margin-left: 400px;  
+                  font-size: 70px;
+                  padding: 900p 200px;
+                 
+                  font-family: 'Brush Script MT', cursive;
+
+                }
+            </style>
+        </header>
+    </section>
+    <section class="about-section">
+        <article>
+            </div>
+        </div>
+    </div>
+</body>
+ 
+</html>
