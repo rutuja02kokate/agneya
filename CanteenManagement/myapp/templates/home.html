@@ -1,86 +1,81 @@
-{% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-.menu {
-  float: left;
-  width: 20%;
-}
-.menuitem {
-  padding: 8px;
-  margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
-}
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-  overflow: hidden;
-}
-.right {
-  background-color: lightblue;
-  float: left;
-  width: 20%;
-  padding: 10px 15px;
-  margin-top: 7px;
-}
-
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
-</style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+            initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+ 
+    <title>canteen ORTAD</title>
 </head>
-<body style="font-family:Verdana;">
+<body>
+    <!-- navbar  -->
+    <nav>
+        <style>
+            ul{
+                font-size: 20px;
 
-<div style="background-color:#f1f1f1;padding:15px;">
-  <h1>CANTEEN ORTAD</h1>
-  <h3>Best Canteen in City</h3>
-</div>
+            }
+        </style>
+        <ul class="nav-flex-row">
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/about/">About us</a>
+            </li>
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/c_login/"> Customer Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/e_login/">Employee Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="http://127.0.0.1:8000/myapp/menu1/">Menu</a>
+            </li>
+        </ul>
+        
+    </nav>
+    <section class="section-intro">
+        <header>
+            <style>
+                font-size: 50px;
+            </style>
+            <h1> <center>Canteen ORTAD</center> </h1>
+            <h2><center> because friendship starts here</center> </h2>
+            <style>
+                h1{
+               
+                  font-size: 100px;
+                  background-color:rgb(213, 213, 72);
+                  font-weight: bold;
+                  font-family:"times new roman"
+                  
+                }
+            </style>
+            
+    
+            <style>
+                h2{
+                  margin-left: 400px;  
+                  font-size: 70px;
+                  padding: 900p 200px;
+                 
+                  font-family: 'Brush Script MT', cursive;
 
-<div style="overflow:auto">
-  <div class="menu">
-    <div class="menuitem"><a href='http://127.0.0.1:8000/myapp/home/' >Home</a></div>
-    <div class="menuitem"><a href='http://127.0.0.1:8000/myapp/login/' >Login</a></div>
-    <div class="menuitem"><a href='http://127.0.0.1:8000/myapp/menu/' >Menu</a></div>
-    <div class="menuitem"><a href='http://127.0.0.1:8000/myapp/about/' >About</a></div>
-  </div>
-
-  <div class="main">
-    <h2>Home</h2>
-    <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
-    <img src="img_5terre.jpg" style="width:100%">
-  </div>
-
-  <div class="right">
-    <h2>What?</h2>
-    <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
-    <h2>Where?</h2>
-    <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
-    <h2>Price?</h2>
-    <p>The Walk is free!</p>
-  </div>
-</div>
-
-
-<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
-
+                }
+            </style>
+        </header>
+    </section>
+    <section class="about-section">
+        <article>
+            </div>
+        </div>
+    </div>
 </body>
+ 
 </html>
