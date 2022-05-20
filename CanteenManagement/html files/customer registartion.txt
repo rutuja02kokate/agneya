@@ -2,11 +2,12 @@
 <html> 
     <head></head>
     
-    <title>Employee registration</title>
-    <link rel="stylesheet" href="e_registration.css"
+    <title>Canteen Token Sytem</title>
+    <link rel="stylesheet" href="index.css"
 <body>
     <div class="container">
-        <h1>EMPLOYEE REGISTRATION</h1>
+        <h1>REGISTRATION</h1>
+        <h2 align="center">Create Account</h2>
         <div class="box">
             
         <input type="Customer Name" name="Customer Name="email" placeholder="enter your Name">
@@ -22,6 +23,12 @@
         <input type="Email" name="Email" id="Email" placeholder="enter your Address">
              </div>
         <div class="box">
+        <input type="Email" name="Email" id="Email" placeholder="Branch">
+             </div>
+        <div class="box">
+         <input type="Email" name="Email" id="Email" placeholder="enter Is User">
+            </div>
+         <div class="box">
          <input type="Email" name="Email" id="Email" placeholder="enter your Password">
              </div>
         <div class="box">

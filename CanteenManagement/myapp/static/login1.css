@@ -3,7 +3,7 @@
     padding: 10px;;
 }
 body{
-    background: url(mg.jpg) no-repeat center center fixed;
+    background-color: rgb(168, 70, 70);
     background-size: cover;
 }
 .container
